@@ -1,0 +1,30 @@
+# Core Python utilities
+numpy
+pandas
+joblib
+python-dotenv
+
+# Machine Learning
+scikit-learn
+mlflow
+
+# API Backend (FastAPI)
+fastapi
+uvicorn[standard]
+
+# Frontend (Flask)
+flask
+requests
+
+# Serialization
+pydantic
+
+# Visualization / optional
+matplotlib
+
+# For scheduling logic and time handling
+python-dateutil
+
+# Deployment / Server
+gunicorn
+

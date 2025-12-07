@@ -14,7 +14,7 @@ REST API (FastAPI)
 
 Web dashboard (Flask UI)
 
-# **🚀 Project Overview** 
+# **Project Overview** 
 
 The Smart Queue System predicts customer service times using machine learning and then assigns customers to the most suitable teller based on:
 
@@ -30,14 +30,14 @@ It improves queue management by balancing teller load and reducing customer wait
 
 
 
-### **🧪 1. Generate Synthetic Queue Data**
+### **1. Generate Synthetic Queue Data**
 Use data_generator.py to create a dataset of simulated bank customers and their queue behaviors.
 
 ### **🤖 2. Train the Machine Learning Model**
 
 model_trainer.py trains a RandomForestRegressor that predicts expected service time.
 
-### **🧠 3. Teller Assignment Scheduler**
+### **3. Teller Assignment Scheduler**
 
 The scheduling logic (in scheduler.py) chooses the best teller based on:
 
@@ -56,7 +56,7 @@ The scheduler outputs:
 3. Effective service duration
 
 
-### **🌐 4. FastAPI Backend** 
+### ** 4. FastAPI Backend** 
 
 main.py provides a REST endpoint:
 
@@ -65,7 +65,7 @@ main.py provides a REST endpoint:
 Predicts the service time and assigns the best teller.
 
 
-### **🖥️ 5. Flask Web Dashboard**
+### **5. Flask Web Dashboard**
 
 A simple frontend for interacting with the backend API.
 
@@ -81,7 +81,7 @@ See assigned teller & timestamps
 
 
 
-## **🔧 Technologies Used**
+## ** Technologies Used**
 
 Python
 
@@ -100,7 +100,7 @@ Uvicorn
 Time-based scheduling
 
 
-## **📌 Future Improvements**
+## ** Future Improvements**
 
 Real-time dashboard with WebSockets
 
